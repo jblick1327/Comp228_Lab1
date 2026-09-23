@@ -1,8 +1,6 @@
 package Lab1;
 
 public class EmployeeCalculator {
-    static int employeeCount = 0;
-
     static double calculateBonus(double salary, double percentage) {
         return salary * percentage / 100;
     }
